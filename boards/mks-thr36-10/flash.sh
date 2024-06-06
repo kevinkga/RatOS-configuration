@@ -1,5 +1,5 @@
 #!/bin/bash
-MCU=/dev/mks-thr36-10
+MCU=/dev/mks-thr-36-10
 if [ "$EUID" -ne 0 ]
   then echo "ERROR: Please run as root"
   exit

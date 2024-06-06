@@ -1,4 +1,4 @@
 # MKS THR-36 v1.0
-SUBSYSTEMS=="usb", ATTRS{idProduct}=="614e",  ATTRS{idVendor}=="1d50", ATTRS{serial}=="mks-thr-36-10", ACTION=="add", SYMLINK+="mks-thr36-10", RUN+="/home/pi/printer_data/config/RatOS/scripts/klipper-mcu-added.sh"
+SUBSYSTEMS=="usb", ATTRS{idProduct}=="614e",  ATTRS{idVendor}=="1d50", ATTRS{serial}=="mks-thr-36-10", ACTION=="add", SYMLINK+="mks-thr-36-10", RUN+="/home/pi/printer_data/config/RatOS/scripts/klipper-mcu-added.sh"
 
 ACTION=="remove", ENV{DEVLINKS}=="/dev/mks-thr36-10"

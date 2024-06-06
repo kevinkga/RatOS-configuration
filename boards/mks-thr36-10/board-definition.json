@@ -6,7 +6,7 @@
         "isToolboard": true,
         "name": "THR36 v1.0",
         "manufacturer": "MAKERBASE",
-        "id": "mks-thr36-10",
+        "id": "mks-thr-36-10",
         "firmwareBinaryName": "firmware-mks-thr36-10.bin",
         "compileScript": "compile.sh",
         "flashScript": "flash.sh",
